@@ -2,7 +2,7 @@
   "name": "microlink-lighthouse",
   "description": "Automate running Lighthouse for every commit, viewing the changes, and preventing regressions",
   "repository": "https://github.com/microlinkhq/lighthouse-ci",
-  "logo": "https://microlink.io/logo-trim.jpg",
+  "logo": "https://cdn.microlink.io/logo/trim.jpeg",
   "keywords": [
     "microlink",
     "lighthouse",
