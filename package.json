@@ -1,5 +1,6 @@
 {
   "name": "microlink-lighthouse",
+  "description": "Automate running Lighthouse for every commit, viewing the changes, and preventing regressions",
   "private": true,
   "version": "1.0.0",
   "main": "index.js",
@@ -10,5 +11,14 @@
     "@lhci/server": "~0.3.14",
     "pg": "~8.2.0",
     "pg-hstore": "~2.3.3"
-  }
+  },
+  "keywords": [
+    "microlink",
+    "lighthouse",
+    "server",
+    "ci"
+  ],
+  "files": [
+    "index.js"
+  ]
 }

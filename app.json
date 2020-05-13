@@ -1,0 +1,24 @@
+{
+  "name": "microlink-lighthouse",
+  "description": "Automate running Lighthouse for every commit, viewing the changes, and preventing regressions",
+  "repository": "https://github.com/microlinkhq/lighthouse-ci",
+  "logo": "https://microlink.io/logo-trim.jpg",
+  "keywords": [
+    "microlink",
+    "lighthouse",
+    "server",
+    "ci"
+  ],
+  "addons": [
+    "heroku-postgresql:hobby-dev",
+    "papertrail:choklad"
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "formation": {
+    "web": {
+      "command": "npm start"
+    }
+  }
+}
