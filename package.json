@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@lhci/server": "~0.4.1",
-    "pg": "~8.2.0",
+    "pg": "~8.2.1",
     "pg-hstore": "~2.3.3"
   },
   "keywords": [
